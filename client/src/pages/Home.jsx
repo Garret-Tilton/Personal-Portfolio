@@ -4,10 +4,10 @@ export default function Home() {
       {/* Push content down slightly from the top */}
       <div className="mt-32">
         <h1 className="text-6xl font-extrabold leading-tight">
-          Welcome to my Portfolio
+          Hello, I'm <span className='text-[#209CEE]'>Garret Tilton</span>
         </h1>
         <p className="mt-6 text-xl max-w-2xl mx-auto text-gray-200">
-          My name is Garret. I am a software developer and a Marine veteran.
+          I am a software developer and a Marine veteran.
         </p>
 
         {/* Call to Action */}
