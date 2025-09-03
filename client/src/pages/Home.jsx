@@ -1,25 +1,23 @@
 export default function Home() {
   return (
-    <section className="hero-section relative min-h-screen flex flex-col items-center justify-start text-center text-white px-6">
-      {/* Push content down slightly from the top */}
-      <div className="mt-32">
-        <h1 className="text-6xl font-extrabold leading-tight">
+    <section className="hero-section relative min-h-screen flex flex-col items-start justify-start text-white px-6">
+      <div className="mt-20 sm:mt-24 md:mt-32 translate-x-0 sm:translate-x-8 md:translate-x-16">
+        <h1 className="text-5xl sm:text-6xl md:text-7xl font-extrabold leading-tight mb-8 sm:mb-10 md:mb-12">
           Hello, I'm <span className='text-[#209CEE]'>Garret Tilton</span>
         </h1>
-        <p className="mt-6 text-xl max-w-2xl mx-auto text-gray-200">
-          I am a software developer and a Marine veteran.
-        </p>
-
-        {/* Call to Action */}
-        <div className="mt-8 flex justify-center">
-          <a
-            href="#projects"
-            className="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg shadow-lg transition"
-          >
-            View My Work
-          </a>
+          <p className="text-lg sm:text-xl text-white translate-y-4">
+            Software developer based in Denver, CO.
+          </p>
+          <p className="text-lg sm:text-xl text-white translate-y-8">
+            Passion in building applications and troubleshooting IT challenges.
+          </p>
+          <p className="text-lg sm:text-xl text-white translate-y-12">
+            This portfolio was built using React, JavaScript, and Tailwind CSS.
+          </p>
+          <p className="text-lg sm:text-xl text-white translate-y-24">
+            Take a look at my projects below!
+          </p>
         </div>
-      </div>
     </section>
   );
 }
