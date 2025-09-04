@@ -6,13 +6,9 @@ import Navbar from "./components/Navbar";
 import {
   Home,
   About,
-  Contact,
-  Experience,
-  Feedback,
-  Gallery,
+  Projects,
   Resume,
-  Tech,
-  Work
+  Contact
 } from "./pages";
 
 const App = () => {
@@ -23,7 +19,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/work" element={<Work />} />
+          <Route path="/projects" element={<Projects />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
