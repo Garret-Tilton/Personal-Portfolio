@@ -1,14 +1,18 @@
+import MacTerminal from "../components/MacTerminal";
+
 export default function About() {
   return (
     <section 
       id="about"
-      className="min-h-screen flex items-center justify-center bg-gray-900 text-white px-6">
-      <div>
-        <h2 className="text-4xl font-bold mb-4">About Me</h2>
-        <p className="max-w-2xl text-lg">
-          I am a software developer with a passion for building applications,
-          solving IT challenges, and learning new technologies...
-        </p>
+      className="min-h-screen flex flex-col items-start justify-start bg-gray-900 text-white px-6 pt-20 overflow-hidden">
+      <div className="mt-20 sm:mt-24 md:mt-32 translate-x-0 sm:translate-x-8 md:translate-x-16">
+        <p className="text-lg sm:text-xl text-white"> Introduction</p>
+        <h2 className="text-5xl sm:text-6xl md:text-7xl font-extrabold leading-tight mb-8 sm:mb-10 md:mb-12">About Me</h2>
+        
+        {/* Mac Terminal */}
+        <div className="absolute">
+          <MacTerminal />
+        </div>
       </div>
     </section>
   );
