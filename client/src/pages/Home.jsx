@@ -1,3 +1,5 @@
+import Laptop from "../components/Laptop";
+
 export default function Home() {
   return (
     <section 
@@ -27,6 +29,11 @@ export default function Home() {
             alt="Profile"
             className="w-96 h-96 rounded-full object-cover border-4 border-[#209CEE] shadow-lg"
           />
+        </div>
+
+        {/* Laptop */}
+        <div className="absolute bottom-10 left-1/4 -translate-x-1/2 w-[600px] h-[600px]">
+          <Laptop />
         </div>
 
         <div className="mt-20 sm:mt-24 md:mt-32 translate-x-0 sm:translate-x-8 md:translate-x-16">
