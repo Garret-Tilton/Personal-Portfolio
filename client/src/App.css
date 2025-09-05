@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
 @import "tailwindcss";
 
 /* Reset browser defaults */
@@ -32,4 +33,11 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   display: inline-block;
   animation: binaryScroll 16s linear infinite;
 }
+
+.carpe-diem {
+  font-family: 'Parisienne', cursive;
+  font-size: 63px;
+  color: white;
+}
+
 

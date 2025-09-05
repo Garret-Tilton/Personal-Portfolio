@@ -1,3 +1,5 @@
+import TechCoins from "../components/TechCoins";
+
 export default function Home() {
   return (
     <section 
@@ -17,6 +19,11 @@ export default function Home() {
           <div className="animate-binary text-[#209CEE] opacity-70 whitespace-pre">
             {Array(100).fill(0).map(() => (Math.random() > 0.5 ? "1\n" : "0\n"))}
           </div>
+        </div>
+
+        {/* Carpe Diem */}
+        <div className="absolute top-20 right-24 carpe-diem">
+          Carpe Diem
         </div>
 
         <div className="mt-20 sm:mt-24 md:mt-32 translate-x-0 sm:translate-x-8 md:translate-x-16">
