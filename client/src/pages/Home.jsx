@@ -1,5 +1,3 @@
-import TechCoins from "../components/TechCoins";
-
 export default function Home() {
   return (
     <section 
@@ -21,9 +19,14 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Carpe Diem */}
-        <div className="absolute top-20 right-24 carpe-diem">
-          Carpe Diem
+        {/* Profile Picture Section */}
+        <div className="absolute top-20 right-24 flex flex-col items-center space-y-4">
+          <span className="carpe-diem text-xl font-semibold">Carpe Diem</span>
+          <img 
+            src="/profile-pic.jpg"
+            alt="Profile"
+            className="w-96 h-96 rounded-full object-cover border-4 border-[#209CEE] shadow-lg"
+          />
         </div>
 
         <div className="mt-20 sm:mt-24 md:mt-32 translate-x-0 sm:translate-x-8 md:translate-x-16">
