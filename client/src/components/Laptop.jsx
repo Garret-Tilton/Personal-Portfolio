@@ -3,7 +3,7 @@ import { OrbitControls, useGLTF } from "@react-three/drei";
 import { Suspense } from "react";
 
 function LaptopModel(props) {
-  const { scene } = useGLTF("/models/mac-terminal.glb");
+  const { scene } = useGLTF("/models/laptop.glb");
   return <primitive object={scene} scale={10} {...props} />; // scale up!
 }
 
