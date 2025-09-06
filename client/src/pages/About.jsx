@@ -2,10 +2,10 @@ export default function About() {
   return (
     <section 
       id="about"
-      className="relative min-h-screen flex flex-col items-center justify-center bg-gray-950 text-green-400 px-6 pt-20 font-mono"
+      className="relative min-h-screen flex flex-col items-start justify-start bg-gray-950 text-green-400 px-6 pt-20 font-mono"
     >
       {/* Terminal Window */}
-      <div className="w-full max-w-4xl bg-gray-900 rounded-lg shadow-lg overflow-hidden">
+      <div className="w-full bg-gray-900 rounded-lg shadow-lg overflow-hidden">
         
         {/* Terminal Header Bar */}
         <div className="flex items-center gap-2 px-4 py-2 bg-gray-800">
